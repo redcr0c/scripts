@@ -27,7 +27,7 @@ int main() {
             cin >> response;
             
             if (response == "CORRECT") {
-                break;  // We found the number!
+                break;
             } else if (response == "TOO_SMALL") {
                 low = mid + 1;  // Number is larger than mid
             } else if (response == "TOO_BIG") {
