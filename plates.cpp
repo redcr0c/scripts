@@ -42,10 +42,6 @@ int main() {
         i++;
     }
 }
-        }
-    }
-    cout << dp[n][p] << "\n";
-}
 
 /* 
 for testing the following test case may be used:
